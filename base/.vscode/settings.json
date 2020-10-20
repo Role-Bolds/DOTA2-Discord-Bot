@@ -1,0 +1,7 @@
+{
+
+    "editor.tabSize": 2,
+    "mochaExplorer.exit": true,
+    "mochaExplorer.files": "src/**/*.test.ts",
+    "mochaExplorer.require": "ts-node/register"
+}
