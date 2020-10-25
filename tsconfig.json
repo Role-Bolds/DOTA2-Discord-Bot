@@ -4,6 +4,7 @@
       "module": "commonjs",
       "outDir": "msb-compile",
       "sourceMap": true,
-      "resolveJsonModule": true
-    }
+      "resolveJsonModule": true,
+    },
+    "include": ["src/**/*"]
 }

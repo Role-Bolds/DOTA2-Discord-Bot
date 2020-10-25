@@ -18,7 +18,8 @@
             "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
             "request": "launch",
             "skipFiles": [
-                "<node_internals>/**"
+                "<node_internals>/**",
+                "${workspaceFolder}/base/**"
             ],
             "type": "pwa-node"
         },
@@ -28,7 +29,8 @@
             "program": "${workspaceFolder}/src/main.ts",
             "request": "launch",
             "skipFiles": [
-                "<node_internals>/**"
+                "<node_internals>/**",
+                "${workspaceFolder}/base/**"
             ],
             //"outputCapture": "std",
             "preLaunchTask": "tsc: build - tsconfig.json",
